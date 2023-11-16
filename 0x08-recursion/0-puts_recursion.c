@@ -3,9 +3,8 @@
 /**
  * _puts_recursion - Prints a string, followed by a new line.
  *
- * @s: Parameter of a funtion
-*/
-
+ * @s: Parameter of a function
+ */
 void _puts_recursion(char *s)
 {
 	if (*s != '\0')
@@ -17,5 +16,4 @@ void _puts_recursion(char *s)
 	{
 		_putchar('\n');
 	}
-
-}	
+}
