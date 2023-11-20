@@ -6,9 +6,9 @@
  * @argc: number of arguments
  * @argv: arguments arrays
  *
- * Return: 0
+ * Return: 0 (success)
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	(void)argv;
 
